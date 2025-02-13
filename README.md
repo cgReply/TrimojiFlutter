@@ -1,16 +1,14 @@
 # emoji_trivia_app
 
-A new Flutter project.
+A Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Per avviare l'app, eseguire il seguente comando:
 
-A few resources to get you started if this is your first Flutter project:
+```
+flutter run --dart-define=OPENAPI_KEY=[your_openapi_key]
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<video src="https://github.com/user-attachments/assets/f97b2ca9-d8c2-410a-a095-5cc7a9a427ee" width="300" />
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
