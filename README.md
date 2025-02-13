@@ -10,5 +10,8 @@ Per avviare l'app, eseguire il seguente comando:
 flutter run --dart-define=OPENAPI_KEY=[your_openapi_key]
 ```
 
-<video src="https://github.com/user-attachments/assets/f97b2ca9-d8c2-410a-a095-5cc7a9a427ee" width="300" />
+<video src="https://github.com/user-attachments/assets/3583ca1b-03a0-4b0a-9fcf-841a8306890f" width="300" />
+
+
+
 
