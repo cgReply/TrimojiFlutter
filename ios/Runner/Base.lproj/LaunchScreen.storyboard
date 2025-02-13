@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="UIViewController-1">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18104"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="scene-1">
+            <objects>
+                <viewController id="UIViewController-1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="view-1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <subviews>
+                            <imageView id="image-1">
+                                <rect key="frame" x="137.5" y="311" width="100" height="100"/>
+                                <image key="image" name="splash_image"/>
+                                <contentMode key="contentMode" value="scaleAspectFit"/>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="image-1" firstAttribute="centerX" secondItem="view-1" secondAttribute="centerX" id="centerX"/>
+                            <constraint firstItem="image-1" firstAttribute="centerY" secondItem="view-1" secondAttribute="centerY" id="centerY"/>
+                        </constraints>
+                    </view>
+                </viewController>
+            </objects>
+        </scene>
+    </scenes>
+</document>
